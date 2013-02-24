@@ -1,0 +1,9 @@
+# Composer
+composer.phar
+composer.lock
+composer-test.lock
+vendor/
+
+# PHPUnit
+phpunit.xml
+build

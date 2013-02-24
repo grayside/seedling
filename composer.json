@@ -1,0 +1,30 @@
+{
+    "name": "grayside/seedling",
+    "type": "library",
+    "description": "Seedling is a pseudo-random generator library.",
+    "keywords": ["random", "pseudorandom", "procedural generation"],
+    "homepage": "http://github.com/grayside/seedling",
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "Adam Ross",
+            "email": "grayside@gmail.com",
+            "homepage": "https://grayside.org"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.3.2"
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Seedling": "src/"
+        }
+    }
+}
